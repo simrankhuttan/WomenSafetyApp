@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Guardian Angel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guardian_angel">Guardian Angel</string>
+    <string name="women_safety">Women Safety</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="logout">Logout</string>
+    <string name="manage_emergency_contacts">Manage Emergency Contacts</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="change_profile_picture">Change Profile Picture</string>
+    <string name="your_digital_safety_companion">Your digital safety companion</string>
+    <string name="your_safety_our_priority_stay_strong_stay_safe">Your safety, our priority. Stay strong, stay safe!</string>
+    <string name="guardian_angel1">Guardian Angel</string>
+    <string name="welcome_user_name">Welcome, User Name!</string>
+    <string name="fetch_location">Fetch Location</string>
+    <string name="sos">SOS</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="wlcm_user_name">wlcm_user_name</string>
+    <string name="send">send</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="camera">CAMERA</string>
+    <string name="safe_go">Safe Go</string>
+    <string name="sarthi">Sarthi</string>
+    <string name="app_logo">App Logo</string>
+</resources>

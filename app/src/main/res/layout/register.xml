@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/gradient_background_xml">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"/>
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter your email"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"/>
+
+    <!-- Phone Input -->
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:inputType="phone"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter your password"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:inputType="textPassword"/>
+
+    <!-- Register Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>

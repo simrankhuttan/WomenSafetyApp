@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background_xml"
+    android:padding="26dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camera"
+           android:layout_marginTop="18dp"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"/>
+
+
+       <ImageView
+        android:id="@+id/CapturedImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:background="#E9E1E1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnCapture"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/capture_photo"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/record_audio"
+        android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/send">
+
+        </Button>
+
+</LinearLayout>
+        </ScrollView>

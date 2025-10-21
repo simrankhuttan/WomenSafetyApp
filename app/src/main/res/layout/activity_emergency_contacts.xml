@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_xml"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Emergency Contact 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact 1"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/et_emergency_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name (e.g., Mother)"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/et_emergency_phone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/et_emergency_email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <!-- Emergency Contact 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact 2"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/et_emergency_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name (e.g., Father)"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_emergency_phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_emergency_email2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact 3"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/et_emergency_name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name (e.g., Father)"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_emergency_phone3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_emergency_email3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btn_save_contacts"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="20dp"
+            android:text="Save Details"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btn_edt_contacts"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Contacts"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
